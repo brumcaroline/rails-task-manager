@@ -2,4 +2,6 @@
 
 <%= render 'form', task: @task %>
 
-<p><%= link_to 'See all your tasks', tasks_path %></p>
+<%= link_to tasks_path do %>
+  <i class="fa fa-history"></i> Return to the list
+<% end %>
