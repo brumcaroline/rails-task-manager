@@ -15,4 +15,10 @@
  */
  @import "font-awesome";
 
+body {
+  margin: 0 auto;
+  width: 700px;
+  text-align: center;
+  padding: 100px;
+}
 
